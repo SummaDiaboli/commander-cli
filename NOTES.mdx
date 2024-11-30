@@ -1,15 +1,17 @@
 # Takeaways
 
 ## Issues
-- Ink is not the best solution for this. There are a lot of package resolution issues
-and some of the ink packages are wildly outdated
-- Ink's stdio implementation conflicts with the environment's leading to output being
-overwritten
-- Initial goal was to be able to run the returned command but could not pipe in user
-input for interactive commands like ```npx create-next-app```
-- The prompt for returning commands sometimes fails to return a valid response as prompted
+
+-   Ink is not the best solution for this. There are a lot of package resolution issues
+    and some of the ink packages are wildly outdated
+-   Ink's stdio implementation conflicts with the environment's leading to output being
+    overwritten
+-   Initial goal was to be able to run the returned command but could not pipe in user
+    input for interactive commands like `npx create-next-app`
+-   The prompt for returning commands sometimes fails to return a valid response as prompted
 
 ## Possible fixes
-- Rewrite in Go might be better, likely using cobra.
-- Investigate improving the prompt
-- Investigate using other AI providers
+
+-   Rewrite in Go might be better, likely using cobra.
+-   Investigate improving the prompt
+-   Investigate using other AI providers

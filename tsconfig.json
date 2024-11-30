@@ -1,13 +1,13 @@
 {
-	// "extends": "@sindresorhus/tsconfig",
-	"compilerOptions": {
-		"module": "Node16",
-		"outDir": "dist",
-		"skipLibCheck": true,
-		"noEmitOnError": true,
-		"forceConsistentCasingInFileNames": true,
-		"jsx": "react",
-		"esModuleInterop": true
-	},
-	"include": ["source"]
+    // "extends": "@sindresorhus/tsconfig",
+    "compilerOptions": {
+        "module": "Node16",
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "noEmitOnError": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "esModuleInterop": true
+    },
+    "include": ["source"]
 }

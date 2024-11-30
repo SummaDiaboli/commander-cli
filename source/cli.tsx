@@ -1,20 +1,20 @@
 #!/usr/bin/env node
-import React from 'react';
-import {render} from 'ink';
-import meow from 'meow';
-import App from './app.js';
+import React from "react"
+import { render } from "ink"
+import meow from "meow"
+import App from "./app.js"
 
 export const cli = meow(
-	`
-	Usage
-	  $ commander-cli
+    `
+    Usage
+      $ commander-cli
 
-	Examples
-	  $ commander-cli
+    Examples
+      $ commander-cli
 `,
-	{
-		importMeta: import.meta,
-	},
-);
+    {
+        importMeta: import.meta,
+    }
+)
 
-render(<App />);
+render(<App />)

@@ -9,6 +9,7 @@ $ git clone {repository_url}
 ```
 
 Install dependencies:
+
 ```bash
 $ cd commander-cli
 $ npm install
